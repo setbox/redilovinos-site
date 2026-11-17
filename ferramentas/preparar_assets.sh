@@ -2,7 +2,7 @@
 set -e
 RAIZ="$(cd "$(dirname "$0")/.." && pwd)"
 STYLEBOOK="${STYLEBOOK:-$RAIZ/../redil-stylebook}"
-EBOOK="${EBOOK:-$HOME/obsidian/setbox/academy/criacao-de-ovinos/produtos/ebook/ovinocultura-de-corte.pdf}"
+EBOOK="${EBOOK:-$HOME/obsidian/setbox/academy/criacao-de-ovinos/produtos/ebook/ovinocultura-de-corte-ilustracoes-codex.pdf}"
 PAGINAS="${PAGINAS:-13 33 53 75 110 122}"
 IMG="$RAIZ/img"
 mkdir -p "$IMG/amostras" "$IMG/marca" "$RAIZ/fontes"
